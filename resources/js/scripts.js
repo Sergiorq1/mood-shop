@@ -1,5 +1,16 @@
 import data from './data.js';
 
+const cart = [];
+
+function addItem(name, price) {
+  const item = { name: name, price: price, qty: 1 };
+  cart.push(item);
+}
+
+function showItems() {
+  console.log(`You have ${cart.length} items in your cart`);
+}
+
 const itemsContainer = document.getElementById('items');
 
 // the length of our data determines how many times this loop goes around

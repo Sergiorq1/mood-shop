@@ -8,16 +8,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  background-color: bisque;
+    background-color: bisque;
+    color: black;
 }
-.page-header ul{
+.page-header h4 {
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .page-header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
   }
-  .page-header a{
+  .page-header a {
     display: block;
-    padding:0.5em;
-    text-decoration:none;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
   }
