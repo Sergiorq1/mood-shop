@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: beige;
     color: black;
 }
   .page-header ul {
@@ -37,7 +37,7 @@ body {
   }    
   .item button{
     padding: 10px;
-    background-color: blue;
+    background-color: red;
     color: white;
     text-align: center;
   }
