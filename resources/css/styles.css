@@ -11,10 +11,6 @@ body {
     background-color: bisque;
     color: black;
 }
-.page-header h4 {
-    font-size: 1.3em;
-    font-family: 'Courier New', Courier, monospace;
-  }
   .page-header ul {
     display: flex;
     flex-direction: row;
@@ -25,8 +21,23 @@ body {
     display: block;
     padding: 0.5em;
     text-decoration: none;
-    color: black;
-    letter-spacing: 2px;
-    font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-column-gap: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .item {
+    border: solid 1px;
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+  }    
+  .item button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
   }
