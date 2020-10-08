@@ -1,4 +1,4 @@
-const itemList = document.getElementById(‘item-list’)
+const itemList = document.getElementById('item-list')
 const cartQty = document.getElementById('cart-qty')
 const cartTotal = document.getElementById('cart-total')
 
